@@ -6,4 +6,4 @@ def fibonacci(n):
         sequencia.append(sequencia[-1] + sequencia[-2])
     return sequencia[:n]
 
-print(fibonacci(0))
+print(fibonacci(10))

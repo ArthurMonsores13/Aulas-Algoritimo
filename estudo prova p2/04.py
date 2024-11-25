@@ -13,19 +13,10 @@ def fatorialR(n):
         return 1
     return n * fatorialR(n-1)
 
-result = fatorialR(5)
+result = fatorialR(3)
 print(result)
-result = fatorial(2)
+result = fatorial(0)
 print(result)
 
-"""
-
-Chamada                n           retorno 
-fatorialR(3)           3           return 3 * fatorialR(3-1) = 3*2=6
-fatorialR(2)           2           return 2 * fatorialR(2-1) = 2*1=2
-fatorialR(1)           1           return 1 * fatorialR(1-1) = 1*1=1
-fatorialR(0)           0           1
-
-"""
 
     
